@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "jasmine-core": "^5.0.0",
+    "karma": "^6.4.2",
+    "karma-browserify": "^8.1.0",
+    "karma-chrome-launcher": "^3.2.0",
+    "karma-coverage": "^2.2.0",
+    "karma-jasmine": "^5.1.0",
+    "karma-requirejs": "^1.1.0",
+    "karma-webpack": "^5.0.0",
+    "watchify": "^4.0.0",
+    "webpack": "^5.86.0"
+  },
+  "scripts": {
+    "unit": "karma start karma.conf.js ",
+    "test": "npm run unit"
+  }
+}
